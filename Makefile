@@ -1,9 +1,9 @@
 -include env_make
 
-ALPINE_VER ?= edge
+ALPINE_VER ?= 3.6
 TAG ?= $(ALPINE_VER)
 
-REPO = csandanov/abuild
+REPO = wodby/abuild
 NAME = abuild-$(ALPINE_VER)
 
 .PHONY: build test push shell run start stop logs clean release
